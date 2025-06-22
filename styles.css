@@ -1,0 +1,181 @@
+    :root {
+  --bg: #FEFCFD;
+  --lavanda: #E1B8E7;
+  --violeta: #B670CB;
+  --gris-suave: #A29BBF;
+  --gris-oscuro: #AFA2B6;
+  --text: #333;
+  --btn-violeta: #9767f2;
+  }
+    
+    body {
+      font-family: 'Segoe UI', sans-serif;
+      background-color: var(--bg);
+      color: var(--text);
+    }
+   .logo-navbar {
+      height: 80px; 
+      object-fit: contain;
+    }
+    .hero {
+      background-color: var(--lavanda);
+      color: #222;
+      padding: 100px 0;
+      text-align: center;
+      box-shadow: inset 0 -20px 40px rgba(0,0,0,0.05);
+    }
+    .fixed-whatsapp {
+      position: fixed;
+      bottom: 20px;
+      right: 20px;
+      z-index: 999;
+    }
+    footer {
+      background: var(--gris-oscuro);
+      color: #fff;
+      text-align: center;
+      padding: 1rem;
+    }
+    .form-control{
+      resize: none;
+    }
+    .navbar-brand img {
+    vertical-align: middle;
+  }
+  .carousel-control-prev-icon,
+  .carousel-control-next-icon {
+  filter: invert(1);
+}
+footer {
+  background-color: var(--gris-oscuro);
+  color: white;
+}
+.boton-violeta {
+  display: inline-block;
+  padding: 12px 30px;
+  background-color: #B670CB; /* violeta fuerte */
+  color: #fff;
+  border: none;
+  border-radius: 8px;
+  font-weight: 500;
+  text-decoration: none;
+  text-align: center;
+  transition: background-color 0.3s ease, transform 0.2s ease;
+  box-shadow: 0 4px 10px rgba(182, 112, 203, 0.3);
+}
+
+.boton-violeta:hover {
+  background-color: #9a58b0;
+  transform: translateY(-2px);
+  box-shadow: 0 6px 15px rgba(182, 112, 203, 0.4);
+}
+.icono-redes {
+  color: var(--text);
+  text-decoration: none;
+  font-weight: 500;
+  transition: color 0.2s ease;
+}
+
+.icono-redes i {
+  margin-right: 6px;
+}
+#compromiso ul li::before {
+  content: "🌿";
+  margin-right: 8px;
+  font-size: 1.1rem;
+}
+#compromiso p {
+  text-align: center;
+}
+
+.compromiso-bg {
+  background-image: url('imagenes/ecologico.webp'); /* ajusta el path si está en otra carpeta */
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  position: relative;
+}
+
+.compromiso-bg .bg-overlay {
+  background-color: rgba(255, 255, 255, 0.85); /* semitransparente para legibilidad */
+  color: #333;
+}
+section {
+  scroll-margin-top: 100px; /* o la altura exacta de tu navbar */
+}
+@media (max-width: 768px) {
+  section {
+    scroll-margin-top: 120px;
+  }
+}
+/* Fondo general del modal */
+.modal-content {
+  background-color: #FEF5EC; /* beige suave como la navbar */
+  color: #333; /* texto legible */
+  border-radius: 12px;
+  border: none;
+  box-shadow: 0 0 20px rgba(0, 0, 0, 0.2);
+}
+
+/* Cabecera del modal */
+.modal-header {
+  background-color: #E1B8E7; /* lavanda */
+  color: white;
+  border-bottom: none;
+}
+
+/* Título del modal */
+.modal-title {
+  font-weight: bold;
+  color: #fff;
+}
+
+/* Cuerpo del modal */
+.modal-body ul li {
+  margin-bottom: 10px;
+}
+
+/* Footer del modal */
+.modal-footer {
+  border-top: none;
+  background-color: #fceefb;
+}
+
+/* Botón cerrar */
+.btn-close {
+  filter: brightness(0) invert(1); /* botón blanco */
+}
+
+.modal-footer .btn {
+  background-color: #B670CB; 
+  color: white;
+  border: none;
+}
+
+.modal-footer .btn:hover {
+  background-color: #9a58b0;
+}
+.boton-violeta {
+  display: inline-block;
+  padding: 12px 30px;
+  background-color: #924f96; /* el color que prefieras */
+  color: white;
+  border: none;
+  border-radius: 8px;
+  font-weight: 500;
+  text-decoration: none;
+  text-align: center;
+  transition: background-color 0.3s ease, transform 0.2s ease;
+  box-shadow: 0 4px 10px rgba(146, 79, 150, 0.3);
+}
+
+.boton-violeta:hover {
+  background-color: #7a3f80;
+  transform: translateY(-2px);
+  box-shadow: 0 6px 15px rgba(122, 63, 128, 0.4);
+}
+
+
+
+
+

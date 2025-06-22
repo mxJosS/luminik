@@ -1,0 +1,279 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>LÚMINIK</title>
+  <link rel="stylesheet" href="styles.css">
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+  <link href="https://cdn.jsdelivr.net/npm/aos@2.3.4/dist/aos.css" rel="stylesheet" />
+  <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css" rel="stylesheet">
+  <link rel="icon" type="image/png" href="imagenes/logo.png">
+ 
+
+
+</head>
+<body>
+  <nav class="navbar navbar-expand-lg sticky-top" style="background-color: #FEF5EC;">
+
+  <div class="container">
+    <a class="navbar-brand" href="#inicio">
+      <img src="imagenes/logo.png" alt="LÚMINIK" class="logo-navbar">
+    </a>
+    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="navbarNav">
+      <ul class="navbar-nav ms-auto">
+        <li class="nav-item"><a class="nav-link" href="#inicio">Inicio</a></li>
+        <li class="nav-item"><a class="nav-link" href="#que-es">¿Qué es LÚMINIK?</a></li>
+        <li class="nav-item"><a class="nav-link" href="#kits">Kits</a></li>
+        <li class="nav-item"><a class="nav-link" href="#compromiso">Compromiso ecológico</a></li>
+        <li class="nav-item"><a class="nav-link" href="#contacto">Contacto</a></li>
+      </ul>
+    </div>
+  </div>
+</nav>
+
+<!-- Hero -->
+<section id="inicio" class="hero" data-aos="fade-in">
+  <div class="container">
+    <h1 class="display-4">LÚMINIK conecta contigo, naturalmente!</h1>
+    <p class="lead">Kits ecológicos de aromaterapia para calmarte, concentrarte o recargarte donde estés.</p>
+    <a href="#kits" class="boton-violeta">Explora nuestros kits</a>
+  </div>
+</section>
+
+<!-- ¿Qué es LÚMINIK? -->
+<section id="que-es" class="py-5">
+  <div class="container" data-aos="fade-up">
+    <h2 class="text-center mb-4">¿Qué es LÚMINIK?</h2>
+    <p>LÚMINIK es un proyecto creado por jóvenes para jóvenes. Diseñamos kits de aromaterapia naturales, portables y ecológicos que ayudan a manejar el estrés, la ansiedad o el insomnio de forma práctica, emocionalmente consciente y accesible.</p>
+    <div class="row text-center mt-5">
+  <div class="col-md-4 mb-4" data-aos="zoom-in">
+    <img src="imagenes/Autoria1.png" alt="Portabilidad" class="mb-3" style="width: 80px; height: auto;">
+    <h5>Portabilidad y funcionalidad</h5>
+    <p>Roll-ons compactos, fáciles de usar y llevar.</p>
+  </div>
+
+  <div class="col-md-4 mb-4" data-aos="zoom-in" data-aos-delay="100">
+    <img src="imagenes/Autoria3.png" alt="Bienestar emocional" class="mb-3" style="width: 80px; height: auto;">
+    <h5>Bienestar emocional</h5>
+    <p>Mezclas creadas para calmar, enfocar o recargar.</p>
+  </div>
+
+  <div class="col-md-4 mb-4" data-aos="zoom-in" data-aos-delay="200">
+    <img src="imagenes/Autoria2.png" alt="Compromiso ambiental" class="mb-3" style="width: 80px; height: auto;">
+    <h5>Compromiso ambiental</h5>
+    <p>Producción artesanal y empaques ecológicos.</p>
+  </div>
+</div>
+</section>
+
+<!-- Nuestros Kits -->
+<section id="kits" class="py-5" style="background-color: var(--lavanda);">
+  <div class="container" data-aos="fade-up">
+    <h2 class="text-center mb-4">Elige tu kit ideal</h2>
+
+    <div id="carouselKits" class="carousel slide" data-bs-ride="carousel">
+      <div class="carousel-inner">
+
+        <!-- Kit 1 -->
+        <div class="carousel-item active">
+          <div class="d-flex flex-column align-items-center text-center">
+            <img src="imagenes/kit1.jpg" class="d-block" alt="Kit Calma" style="max-width: 250px;">
+            <h5 class="mt-3">Kit Calma</h5>
+            <p>Jazmín, manzanilla y naranja. Ideal para relajarte y disminuir la ansiedad.</p>
+          </div>
+        </div>
+
+        <!-- Kit 2 -->
+        <div class="carousel-item">
+          <div class="d-flex flex-column align-items-center text-center">
+            <img src="imagenes/kit2.jpg" class="d-block" alt="Kit Energía" style="max-width: 250px;">
+            <h5 class="mt-3">Kit Energía</h5>
+            <p>Limón, menta y romero. Revitaliza, mejora el ánimo y enfoca.</p>
+          </div>
+        </div>
+
+        <!-- Kit 3 -->
+        <div class="carousel-item">
+          <div class="d-flex flex-column align-items-center text-center">
+            <img src="imagenes/kit3.jpg" class="d-block" alt="Kit Descanso" style="max-width: 250px;">
+            <h5 class="mt-3">Kit Descanso</h5>
+            <p>Manzanilla, jazmín y romero. Induce serenidad para antes de dormir.</p>
+          </div>
+        </div>
+
+        <!-- Kit 4 -->
+        <div class="carousel-item">
+          <div class="d-flex flex-column align-items-center text-center">
+            <img src="imagenes/kit4.jpg" class="d-block" alt="Kit Enfoque" style="max-width: 250px;">
+            <h5 class="mt-3">Kit Enfoque</h5>
+            <p>Limón, menta y romero. Estimula claridad mental y concentración.</p>
+          </div>
+        </div>
+
+      </div>
+
+      <!-- Controles -->
+      <button class="carousel-control-prev" type="button" data-bs-target="#carouselKits" data-bs-slide="prev">
+        <span class="carousel-control-prev-icon"></span>
+      </button>
+      <button class="carousel-control-next" type="button" data-bs-target="#carouselKits" data-bs-slide="next">
+        <span class="carousel-control-next-icon"></span>
+      </button>
+    </div>
+
+    <!-- Botón que activa el modal -->
+<div class="text-center mt-4">
+  <a href="javascript:void(0)" class="boton-violeta">Ver más</a>
+</div>
+
+  </div>
+</section>
+
+<!-- Modal QR Beneficio -->
+<div class="modal fade" id="qrModal" tabindex="-1" aria-labelledby="qrModalLabel" aria-hidden="true">
+  <div class="modal-dialog modal-dialog-centered">
+    <div class="modal-content">
+
+      <div class="modal-header">
+        <h5 class="modal-title" id="qrModalLabel" style="text-align: center;">¡Descrubre nuestro contenido exclusivo con tu kit!</h5>
+        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Cerrar"></button>
+      </div>
+
+      <div class="modal-body text-center">
+        <p>Escanea el código QR para poder acceder a nuestro contenido:</p>
+        <img src="imagenes/qr.png" alt="Código QR LÚMINIK" style="width: 150px; margin-top: 10px;">
+      </div>
+
+      <div class="modal-footer">
+        <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Cerrar</button>
+      </div>
+
+    </div>
+  </div>
+</div>
+
+<!-- Conoce más -->
+<section class="py-5 bg-light" id="conoce-mas">
+  <div class="container text-center" data-aos="fade-up">
+    <h2 class="mb-3">¿Te gustaría conocer más acerca de LÚMINIK?</h2>
+    <p class="mb-4">
+      En <strong>LÚMINIK</strong> creemos que el bienestar va más allá de un simple producto: es una experiencia integral de conexión contigo mismo. Por eso, además de nuestros kits de aromaterapia naturales y ecológicos, te ofrecemos acceso exclusivo a una plataforma de recursos diseñados para tu equilibrio físico, emocional y espiritual.
+    </p>
+    <ul class="text-start mx-auto" style="max-width: 800px; font-size: 1.1rem;">
+      <li>🌿 <strong>Meditaciones guiadas</strong> para ayudarte a reducir el estrés, encontrar calma y reconectar con el presente.</li>
+      <li>🎧 <strong>Playlists personalizadas</strong> para cada estado de ánimo: relajación, enfoque, energía y descanso.</li>
+      <br>
+      <li>📱 <strong>Acceso a nuestra app</strong> con rutinas de autocuidado, consejos holísticos y contenido exclusivo sobre aromaterapia.</li>
+      <li>💌 <strong>Sorpresas y contenido mensual exclusivo</strong>, porque tu bienestar merece acompañamiento constante.</li>
+    </ul>
+    <p class="mt-4">
+      Queremos que cada momento contigo sea significativo, y que te sientas acompañado en tu camino de bienestar.<br>
+      <strong>LÚMINIK</strong> no solo es un producto, es una comunidad que florece contigo.
+    </p>
+    <button type="button" class="boton-violeta mt-4" data-bs-toggle="modal" data-bs-target="#qrModal">
+      Conocer más
+    </button>
+  </div>
+</section>
+
+
+<!-- Compromiso ecológico -->
+<section id="compromiso" class="py-5 text-white compromiso-bg">
+  <div class="container" data-aos="fade-up">
+    <div class="bg-overlay p-4 rounded">
+      <h2 class="text-center mb-4">Hecho para ti. Hecho con conciencia.</h2>
+      <p class="text-center mb-4">
+        En LÚMINIK creemos que el autocuidado debe ir de la mano con el respeto al medio ambiente. Por eso, cada parte de nuestro producto está pensada con conciencia ecológica:
+      </p>
+      <ul class="list-unstyled mx-auto" style="max-width: 700px; font-size: 1.1rem;">
+        <li class="mb-3">Utilizamos frascos de vidrio reutilizables con bolilla metálica.</li>
+        <li class="mb-3">Nuestras etiquetas son de papel kraft reciclado y la guía de uso está impresa en papel semilla o reciclado.</li>
+        <li class="mb-3">Los aceites se formulan con ingredientes naturales, sin conservadores químicos, ni aditivos artificiales.</li>
+        <li class="mb-3">El empaque es de manta reciclada o papel ecológico, sin plásticos.</li>
+        <li class="mb-3">Toda nuestra producción es artesanal, a pequeña escala y de bajo impacto ambiental.</li>
+      </ul>
+    </div>
+  </div>
+</section>
+
+
+
+<!-- Contacto -->
+<section id="contacto" class="py-5 bg-light">
+  <div class="container" data-aos="fade-up">
+    <h2 class="text-center mb-4">Contáctanos</h2>
+    <form class="mx-auto" style="max-width: 600px;">
+      <div class="mb-3">
+        <label for="nombre" class="form-label">Nombre</label>
+        <input type="text" class="form-control" id="nombre" required>
+      </div>
+      <div class="mb-3">
+        <label for="correo" class="form-label">Correo electrónico</label>
+        <input type="email" class="form-control" id="correo" required>
+      </div>
+      <div class="mb-3">
+        <label for="mensaje" class="form-label">Mensaje</label>
+        <textarea class="form-control" id="mensaje" rows="4"></textarea>
+      </div>
+      <button type="submit" class="btn btn-primary w-100">Enviar</button>
+    </form>
+    <div class="text-center mt-4">
+</div>
+
+</section>
+
+<!-- Botón flotante de WhatsApp -->
+<a href="javascript:void(0)" class="btn btn-success fixed-whatsapp">
+  <i class="fab fa-whatsapp"></i> Pide tu kit
+</a>
+
+
+
+<!-- Footer -->
+<footer class="footer-luminik">
+  <div class="container">
+    <div class="row align-items-center text-center text-md-start">
+      <!-- Redes Sociales -->
+      <div class="col-md-4 mb-3 mb-md-0">
+        <div class="redes-footer">
+          <p style="color: black;">¡Síguenos en nuestras redes sociales!</p>
+          <a href="javascript:void(0)" class="icono-redes me-3"><i class="fab fa-instagram"></i> Instagram</a><br>
+          <a href="javascript:void(0)" class="icono-redes me-3"><i class="fab fa-tiktok"></i> TikTok</a><br>
+          <a href="javascript:void(0)" class="icono-redes"><i class="fab fa-facebook"></i> Facebook</a>
+        </div>
+      </div>
+
+      <!-- Info central -->
+      <div class="col-md-4 mb-3 mb-md-0 text-md-center">
+        <p class="mb-1" style="color: var(--text);">LÚMINIK – Hecho con amor en México.</p>
+        <p class="mb-0" style="color: var(--text);">&copy; 2025 Todos los derechos reservados.</p>
+      </div>
+
+      <!-- Avisos legales -->
+      <div class="col-md-4 text-md-end">
+        <a href="javascript:void(0)" class="icono-redes d-block mb-2">Aviso de privacidad</a>
+        <a href="javascript:void(0)" class="icono-redes d-block">Aviso legal</a>
+      </div>
+    </div>
+  </div>
+</footer>
+
+
+<!-- Scripts -->
+
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/aos@2.3.4/dist/aos.js"></script>
+<script>AOS.init();</script>
+
+
+
+
+
+</body>
+</html>
+
+<!-- faltaria agregar el mapa (si tiene) en el footer y organizar las redes sociales, de igual manera agrega "Aviso Legal" y  "Aviso de privacidad" -->
