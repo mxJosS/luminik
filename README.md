@@ -33,6 +33,8 @@ CSS + Bootstrap: grillas, utilidades y componentes.
 
 GitHub Pages: hosting estático.
 
+![LÚMINIK - Brave 2025-09-30 16-49-03 mp4](https://github.com/user-attachments/assets/40dbb67e-84d9-41be-8922-3eac095c4d0b)
+
 🙌 Créditos
 
 Diseño y desarrollo: José Espinosa (mxJosS)
@@ -40,5 +42,5 @@ Diseño y desarrollo: José Espinosa (mxJosS)
 Marca/contenido: LÚMINIK
 
 
-![LÚMINIK - Brave 2025-09-30 16-49-03 mp4](https://github.com/user-attachments/assets/40dbb67e-84d9-41be-8922-3eac095c4d0b)
+
 
