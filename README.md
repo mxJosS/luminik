@@ -12,6 +12,7 @@ MxJoss
 Sección “¿Qué es LÚMINIK?” con pilares: portabilidad, bienestar emocional y compromiso ambiental. 
 MxJoss
 
+
 Catálogo de kits (Calma, Energía, Descanso, Enfoque) con descripciones breves. 
 MxJoss
 
@@ -39,5 +40,5 @@ Diseño y desarrollo: José Espinosa (mxJosS)
 Marca/contenido: LÚMINIK
 
 
-
+![LÚMINIK - Brave 2025-09-30 16-49-03 mp4](https://github.com/user-attachments/assets/40dbb67e-84d9-41be-8922-3eac095c4d0b)
 
